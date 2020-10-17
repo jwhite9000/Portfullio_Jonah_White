@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="WebPage.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" style="text-align: center;" content="width=device-width, initial-scale=1.0">
+    <title>Shows for Nerds</title>
+
+    <style>
+    .About{
+      color: white;
+      text-align: center;
+      font-style: italic;
+    }
+
+    .column {
+      float: left;
+      width: 49.2%;
+      padding: 5px;
+    }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a class="active" href="assign04.html">Home</a></li>
+        <li><a href="assign04_2.html.html">StarGate</a></li>
+        <li><a href="assign04_3.html.html">Star Trek</a></li>
+      </ul>
+      <h1>Shows for Nerds</h1>
+
+      <div class="About">
+        <p>My favorite TV shows have been syfy fiction. <br>
+        I love the story of going into the stars, <br>
+        while living in a world with more technology then I could imagine. <br>
+        So I would like to share my favorte TV Show.</p>
+      </div>
+    </header>
+
+    <div class="row">
+      <div class="column">
+        <img src="StarTrek.jpg" alt="Star Trek" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="Stargate.jpg" alt="Stargate" style="width:100%">
+      </div>
+    </div>
+
+    <footer>
+      <p>Created by Jonah White</p>
+    </footer>
+  </body>
+</html>
